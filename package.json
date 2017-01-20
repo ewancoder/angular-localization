@@ -1,0 +1,30 @@
+{
+  "name": "ewancoder-angular-localization",
+  "version": "0.1.0-alpha.1",
+  "description": "I18n localization module.",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc -p src -w",
+    "build": "rm -rf lib && tsc",
+    "test": "karma start karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ewancoder/angular-localization"
+  },
+  "keywords": ["Angular", "Localization", "I18n"],
+  "author": "ewancoder@gmail.com",
+  "bugs": {
+    "url": "https://github.com/ewancoder/angular-localization"
+  },
+  "homepage": "https://github.com/ewancoder/angular-localization#readme",
+  "dependencies": {
+    "@angular/core": "^2.4.4",
+    "rxjs": "^5.0.3",
+    "ewancoder-angular-logger": "0.1.0-alpha.1"
+  },
+  "devDependencies": {
+    "typescript": "^2.1.5"
+  }
+}
