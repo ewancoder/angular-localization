@@ -1,14 +1,6 @@
 import { Injectable } from '@angular/core';
 import { LoggerService } from 'ewancoder-angular-logger';
-
-export interface Translation {
-    language: string;
-    translations: I18nPairs;
-}
-
-export interface I18nPairs {
-    [key: string]: string;
-}
+import { Translation, I18nPairs } from './translation.model';
 
 @Injectable()
 export class I18nService {
