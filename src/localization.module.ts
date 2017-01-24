@@ -7,7 +7,7 @@ import { TranslatePipe } from './translate.pipe';
 
 @NgModule({
     imports: [
-        LoggerModule
+        LoggerModule.forRoot()
     ],
     providers: [
         TranslateService
