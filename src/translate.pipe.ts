@@ -8,7 +8,7 @@ export class TranslatePipe implements PipeTransform {
         logger: LoggerService,
         private readonly translate: TranslateService) {
 
-        logger.log('Initialized TranslatePipe.', ['init', 'translate', 'pipe', 'localization']);
+        logger.log('Initialized TranslatePipe.', ['translate', 'pipe', 'localization', 'init']);
     }
 
     transform(value: string, args?: string[]): string {

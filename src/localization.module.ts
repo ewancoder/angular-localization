@@ -1,7 +1,6 @@
 import { ModuleWithProviders, NgModule } from '@angular/core';
 import { LoggerModule } from 'ewancoder-angular-logger';
-import { Translation } from './translation.model';
-import { i18nServiceProvider, provideI18nTranslations } from './i18n.service.provider';
+import { i18nServiceProvider } from './i18n.service.provider';
 import { localeServiceProvider } from './locale.service.provider';
 import { TranslateService } from './translate.service';
 import { TranslatePipe } from './translate.pipe';
@@ -22,16 +21,6 @@ export class LocalizationModule {
             ngModule: LocalizationModule,
             providers: [
                 i18nServiceProvider,
-                localeServiceProvider
-            ]
-        };
-    }
-
-    static provideTranslations(translations: Translation[]): ModuleWithProviders {
-        return {
-            ngModule: LocalizationModule,
-            providers: [
-                provideI18nTranslations(translations),
                 localeServiceProvider
             ]
         };

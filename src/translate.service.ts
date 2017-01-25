@@ -14,7 +14,7 @@ export class TranslateService {
             this.i18n.setLanguage(res);
         });
 
-        logger.log('Initialized TranslateService.', ['init', 'translate', 'service', 'localization']);
+        logger.log('Initialized TranslateService.', ['translate', 'service', 'localization', 'init']);
     }
 
     translate(phrase: string, args?: string[]): string {

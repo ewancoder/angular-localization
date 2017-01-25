@@ -1,6 +1,6 @@
 {
   "name": "ewancoder-angular-localization",
-  "version": "0.1.0-alpha.3",
+  "version": "0.1.0-alpha.4",
   "description": "I18n localization module.",
   "license": "MIT",
   "main": "index.js",
@@ -22,7 +22,7 @@
   "dependencies": {
     "@angular/core": "^2.4.4",
     "rxjs": "^5.0.3",
-    "ewancoder-angular-logger": "0.1.0-alpha.1"
+    "ewancoder-angular-logger": "^0.1.0-alpha.2"
   },
   "devDependencies": {
     "typescript": "^2.1.5"

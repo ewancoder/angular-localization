@@ -11,7 +11,7 @@ export class LocaleService {
         let language = localStorage.getItem('language');
         this.language = new BehaviorSubject(language != undefined ? language : defaultLanguage);
 
-        logger.log('Initialized LocaleService.', ['init', 'locale', 'service', 'localization']);
+        logger.log('Initialized LocaleService.', ['locale', 'service', 'localization', 'init']);
     }
 
     get language$(): Observable<string> {

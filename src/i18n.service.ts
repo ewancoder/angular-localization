@@ -10,7 +10,7 @@ export class I18nService {
         logger: LoggerService,
         private readonly translations: Translation[]) {
 
-        logger.log('Initialized I18nService.', ['init', 'i18n', 'service', 'localization']);
+        logger.log('Initialized I18nService.', ['i18n', 'service', 'localization', 'init']);
     }
 
     setLanguage(language: string) {
