@@ -1,6 +1,6 @@
 {
   "name": "ewancoder-angular-localization",
-  "version": "0.1.0-alpha.4",
+  "version": "0.1.0-alpha.5",
   "description": "I18n localization module.",
   "license": "MIT",
   "main": "index.js",

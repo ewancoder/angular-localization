@@ -7,7 +7,7 @@ import { TranslatePipe } from './translate.pipe';
 
 @NgModule({
     imports: [
-        LoggerModule.forRoot()
+        LoggerModule
     ],
     providers: [
         TranslateService
@@ -21,7 +21,8 @@ export class LocalizationModule {
             ngModule: LocalizationModule,
             providers: [
                 i18nServiceProvider,
-                localeServiceProvider
+                localeServiceProvider,
+                ...LoggerModule.forRoot().providers
             ]
         };
     }
