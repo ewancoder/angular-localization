@@ -33,7 +33,7 @@ export class I18nService {
 
         if (args) {
             args.forEach(arg => {
-                translation.replace(/%s/, arg);
+                translation = translation.replace(/%s/, arg);
             });
         }
 
