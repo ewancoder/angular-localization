@@ -11,3 +11,15 @@ export let localeServiceProvider: FactoryProvider = {
     useFactory: localeServiceFactory,
     deps: [LoggerService]
 };
+
+export class LocaleServiceFactory {
+    static withDefaultLocale(defaultLocale: string): FactoryProvider {
+        return {
+            provide: LocaleService,
+            useFactory: (logger: LoggerService) => {
+                return new LocaleService(defaultLocale, logger);
+            },
+            deps: [LoggerService]
+        };
+    }
+}
