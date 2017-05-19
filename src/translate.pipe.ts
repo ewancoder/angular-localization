@@ -1,5 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { LoggerService } from 'ewancoder-angular-logger';
+import { LoggerService } from '@ewancoder/angular-logger';
 import { TranslateService } from './translate.service';
 
 @Pipe({ name: 'translate' })

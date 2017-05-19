@@ -1,5 +1,5 @@
 import { FactoryProvider } from '@angular/core';
-import { LoggerService } from 'ewancoder-angular-logger';
+import { LoggerService } from '@ewancoder/angular-logger';
 import { Translation } from './translation.model';
 import { I18nService } from './i18n.service';
 

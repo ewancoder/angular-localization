@@ -1,5 +1,5 @@
 import { FactoryProvider } from '@angular/core';
-import { LoggerService } from 'ewancoder-angular-logger';
+import { LoggerService } from '@ewancoder/angular-logger';
 import { LocaleService } from './locale.service';
 
 let localeServiceFactory = (logger: LoggerService) => {

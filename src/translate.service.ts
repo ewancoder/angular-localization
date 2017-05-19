@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { LoggerService } from 'ewancoder-angular-logger';
+import { LoggerService } from '@ewancoder/angular-logger';
 import { I18nService } from './i18n.service';
 import { LocaleService } from './locale.service';
 

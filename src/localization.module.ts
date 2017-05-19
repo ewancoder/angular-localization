@@ -1,5 +1,5 @@
 import { ModuleWithProviders, NgModule } from '@angular/core';
-import { LoggerModule } from 'ewancoder-angular-logger';
+import { LoggerModule } from '@ewancoder/angular-logger';
 import { i18nServiceProvider } from './i18n.service.provider';
 import { localeServiceProvider } from './locale.service.provider';
 import { TranslateService } from './translate.service';
